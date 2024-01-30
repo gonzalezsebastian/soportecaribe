@@ -1,0 +1,29 @@
+button {
+    display: inline-block;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: underline;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: var(--skyblue);
+    color: white;
+}
+
+button:hover {
+    transition: 200ms ease-in-out;
+    background-color: white;
+    color: var(--skyblue);
+}
+
+button:active {
+    background-color: #004080;
+    color: white;
+}
+
+.section-title {
+    background-color: var(--blue-bg-color);
+    color: white;
+}
