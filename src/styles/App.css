@@ -1,3 +1,4 @@
+
 .landing{
     display: flex;
     flex-direction: column;
@@ -47,4 +48,47 @@
     width: 50%;
     justify-content: space-evenly;
     align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .landing .parrafo {
+        font-size: 1.2rem;
+    }
+    .landing .titulo .DM {
+        font-size: 4rem;
+    }
+    .landing .botones {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .landing .botones button {
+        margin: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .landing .titulo .subtitulo{
+        font-size: 1.5rem;
+    }
+    .landing .titulo .DM {
+        font-size: 3rem;
+    }
+    .landing .parrafo {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .landing .botones {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .landing .botones button {
+        margin: 0.5rem;
+    }
 }
